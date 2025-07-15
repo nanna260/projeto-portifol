@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    padding: 14px;
+    
+    
+}
+
+.log {
+    width: 70px;
+    height: auto;
+
+}
+
+.navegacao ul{
+    list-style:none;
+    display:flex;
+    color:#D183A9;
+    position: relative;
+    bottom: -15px;
+    
+}
+
+.navegacao ul li a{
+    color: #D183A9;
+    text-decoration: none;
+    
+   
+    
+}
+
+.navegacao ul li{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sobre-mim {
+    text-align: left;
+    background-color:#4B1535;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sobre-foto{
+    width: 400px;
+    height: 400px;
+    display:flex;
+  border-radius:1000px;
+    object-fit:cover;
+}
+
+.sobre-nome{
+    color: #D183A9;
+    font-size: 80px;
+    animation: ca__fx-bounceOutRight;
+    animation-duration: 30s;
+  animation-name: ca__fx-bounceOutRight;
+}
+
+.descricao{
+    color: white;
+    font-size: 30px; 
+    margin-top: 10px;
+   
+    left: 100px;
+    word-break:break-word;
+    overflow-wrap:0 auto;
+} 
+
+#formacao{
+    padding: 50px 150px;
+    background-color:#2D2D2D;
+    
+}
+
+.sobre-formacao{
+    color:#ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: -80px;
+    
+
+}
+
+.formacao-lista{
+width: 600px;
+margin: 0 auto;
+
+}
+
+.formacao-lista h3{
+    font-size: 30px;
+    color:#D183A9;
+    margin-bottom:5px;
+    width:0 auto;
+}
+
+.formacao-lista a{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.formacao-lista p{
+    margin-top:15px ;
+    margin-bottom:30px ;
+    font-size:20px ;
+    color: white;
+}
+
+#formacao2{
+     padding: 50px 150px;
+    background-color:#2D2D2D;
+    
+}
+
+.sobre-formacao2{
+    color:#ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: -80px;
+}
+
+.formacao-lista2{
+    width: 600px;
+margin: 0 auto;
+}
+
+.formacao-lista2 h3{
+     font-size: 30px;
+    color:#D183A9;
+    margin-bottom:5px;
+    width:0 auto;
+}
+
+.formacao-lista2 p{
+     margin-top:15px ;
+    margin-bottom:30px ;
+    font-size:20px ;
+    color: white;
+}
+
+#cursos{
+     padding: 50px 150px;
+    background-color:#4B1535;
+    justify-content: space-between;
+    
+   
+    
+}
+.titulo-curso {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 180px;
+}
+.alinha-intens{
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.vscode-img{
+    width: 130px;
+    height: 130px;
+
+}
+
+.vscode h3{
+    color: white;
+    font-size: 40px;
+  
+  
+}
+
+.vscode p{
+    color:#C9C4C4;
+    
+}
+
+
+
+.excel-img{
+    width: 130px;
+    height: 130px;
+  
+
+}
+
+.excel h3{
+     color: white;
+    font-size: 40px;
+   
+}
+
+.excel p{
+     color:#C9C4C4;
+  
+}
+
+.adm{
+       display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.adm-img{
+       width: 130px;
+    height: 130px;
+ 
+}
+
+.adm h3{
+      color: white;
+    font-size: 40px;
+   
+}
+
+.adm p{
+     color:#C9C4C4;
+   
+}
+
+#interese{
+      padding: 50px px;
+      background-color:#2D2D2D;
+      
+}
+
+.titulo-interese{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.todos-intereses{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.todos-intereses div{
+    text-align: center;
+}
+
+.img-quadrada{
+     width:300px;
+    height:300px;
+     object-fit:cover;
+    border-radius: 10pxpx;
+    box-shadow: 0 0 10px #00000008;
+}
+
+.todos-intereses h3{
+color:#D183A9;
+    font-size: 40px;
+}
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-contato a {
+    color:#ffffff;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.rodape-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link{
+    text-decoration:none;
+    color: #D183A9;
+}
+
+.imgs-icone{
+    width: 50px;
+}
